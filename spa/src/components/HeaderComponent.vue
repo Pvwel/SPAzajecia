@@ -11,7 +11,7 @@ export default{
     },
     data() {
         return {
-            virtualComponent: false
+            virtualComponent: false,
             contentHC: this.text,
         }
     },
@@ -20,7 +20,7 @@ export default{
         text(nVal) {
             return this.contentHC = nVal
         }
-    }
+    },
 
     methods: {
         showComponent() {
