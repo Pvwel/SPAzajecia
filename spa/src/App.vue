@@ -13,7 +13,7 @@ export default {
 
   methods: {
     ChangeContent() {
-      this.content :"start"
+      this.content = "start"
     }
   }
 }
