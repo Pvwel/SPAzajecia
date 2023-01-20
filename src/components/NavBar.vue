@@ -1,0 +1,31 @@
+<template>
+  <v-app-bar app dark flat color="#B4C200">
+    
+    <v-btn class="mx-5" >MENU</v-btn>
+    <div style="position: absolute;margin-left:auto;margin-right:auto;left:0;right:0;text-align: center ;">
+    <v-btn window.location.href="/public/index.html">
+    <h4 class>Shreksophone</h4>
+    
+    </v-btn>
+    </div>
+    <v-spacer></v-spacer>
+    <v-col cols="3">
+        <v-text-field density="compact" variant="outlined" label="Szukaj" append-inner-icon="fas fa-search" single-line hide-details class="mr-2" ></v-text-field>
+      </v-col>
+      
+    </v-app-bar>
+
+</template>
+
+<script>
+export default {
+
+}
+
+
+</script>
+
+<style>
+
+
+</style>
