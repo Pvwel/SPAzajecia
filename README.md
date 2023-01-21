@@ -4,7 +4,7 @@
 npm install
 ```
 
-### Compilacja
+### Kompilacja
 ```
 npm run serve
 ```
