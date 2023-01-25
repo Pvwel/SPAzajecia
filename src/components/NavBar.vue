@@ -3,10 +3,16 @@
     
     <v-btn class="mx-5" >MENU</v-btn>
     <div style="position: absolute;margin-left:auto;margin-right:auto;left:0;right:0;text-align: center ;">
-    <v-btn window.location.href="/public/index.html">
-    <h4 class>Shreksophone</h4>
+      
+      
+        
+          <v-btn 
+          to="/"
+          text="Sklep"
+          >
+  </v-btn>
+        
     
-    </v-btn>
     </div>
     <v-spacer></v-spacer>
     <v-col cols="3">
@@ -21,6 +27,7 @@
 export default {
 
 }
+
 
 
 </script>
